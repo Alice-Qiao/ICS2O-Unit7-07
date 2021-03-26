@@ -11,10 +11,10 @@ function calculate () {
   coefficient = document.getElementById('coefficient').value
   number = parseInt(number)
   coefficient = parseInt(coefficient)
+  sum = 0
 
   for (counter = 0; counter < coefficient; counter++) {
     sum = sum + number
-    alert (sum)
   }
   document.getElementById('sum').innerHTML = sum
 }
